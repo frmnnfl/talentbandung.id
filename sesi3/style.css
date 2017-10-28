@@ -58,14 +58,20 @@ body{
   width: 100%;
   font-size: 16px;
   padding: 20px 70px 25px 25px;
-  border: none;
+  border: 2px solid white;
   border-radius: 45px;
   box-shadow: 0 10px 13px rgba(0, 0, 0, 0.5);
+  outline: none;
+  transition: border-color 300ms ease-in-out;
+}
+
+.hero form input:focus{
+  border: 2px solid #57c21a;
 }
 
 .hero form button{
   position: absolute;
-  top: 5px;
+  top: 11px;
   right: 18px;
   font-size: 36px;
   color: #e3a6a9;
@@ -74,3 +80,53 @@ body{
 
 }
 /* Bagian Hero */
+
+.grid-layout{
+
+}
+
+.grid-layout:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.grid-item{
+  width: 33.333%;
+  float: left;
+  padding: 0 15px;
+}
+.grid-item:nth-child(3n+1){
+  clear: both;
+}
+
+.taman{
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+.taman figure{margin: 0}
+.taman figure img{width: 100%}
+.taman-detail{
+  padding: 15px;
+  text-align: center;
+}
+
+.taman-detail h2{
+  font-size: 28px; 
+}
+
+.taman-detail .jelajah{
+  color: #888;
+}
+
+.taman-detail .taman{
+  color: #363636;
+}
+
+.taman a{
+  text-decoration: none;
+}
+
+.footer{
+  text-align: center;
+}
