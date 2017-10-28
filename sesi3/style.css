@@ -1,0 +1,76 @@
+/*Style Untuk Body*/
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image:url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%; /*cover/contain*/
+  background-color: #f8f9fa;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 1125px;
+  margin:0 auto;
+}
+
+.jelajah{
+  font-family: 'Caveat';
+  font-weight: normal;
+}
+
+.taman{
+  font-family: 'Playfair Display' ;
+  font-weight: normal;
+}
+
+.jelajah, .taman{
+  display: block;
+}
+
+/* Bagian hero*/
+.hero{
+  text-align: center;
+  padding:120px 15px;
+}
+.hero .jelajah{
+  font-size: 64px;
+}
+
+.hero .taman{
+  font-size: 72px;
+}
+
+.hero p{
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.hero form{
+  max-width: 550px;
+  margin: 70px auto 0;
+  position: relative;
+}
+
+.hero form input{
+  width: 100%;
+  font-size: 16px;
+  padding: 20px 70px 25px 25px;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0 10px 13px rgba(0, 0, 0, 0.5);
+}
+
+.hero form button{
+  position: absolute;
+  top: 5px;
+  right: 18px;
+  font-size: 36px;
+  color: #e3a6a9;
+  border: none;
+  background: none;
+
+}
+/* Bagian Hero */

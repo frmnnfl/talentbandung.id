@@ -13,7 +13,8 @@ a{
   display: block;
 }
 
-.taman{
+.taman-detail{
+  text-decoration-color: black;
   display: block;
   text-align: center;
   font-family: 'Playfair Display', serif;
@@ -25,7 +26,7 @@ a{
   width: 300px;
 }
 .button_1{
-  height: 42px;
+  height: 40px;
   background: ;
   padding-left: 10px;
   padding-right: 10px;
