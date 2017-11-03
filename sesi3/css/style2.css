@@ -1,0 +1,100 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image:url("../images/tops.png");
+  background-repeat: no-repeat;
+  background-size: 100%; /*cover/contain*/
+  background-color: #f8f9fa;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  max-width: 1125px;
+  margin:0 auto;
+}
+
+.jelajah{
+  font-family: 'Caveat';
+  font-weight: normal;
+  text-align: center;
+}
+
+.taman{
+  font-family: 'Playfair Display' ;
+  font-weight: normal;
+  text-align: center;
+}
+
+.jelajah, .taman{
+  display: block;
+}
+
+/* Bagian hero*/
+.hero{
+  text-align: center;
+  padding:120px 15px;
+}
+.hero .jelajah{
+  font-size: 64px;
+}
+
+.hero .taman{
+  font-size: 72px;
+}
+
+.hero p{
+  font-size: 19px;
+  font-weight: lighter;
+  text-align: center;
+  max-width: 760px;
+  margin-left: 180px;
+}
+
+.grid-layout{
+
+}
+
+.grid-layout:after{
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.grid-item{
+  width: 33.333%;
+  float: left;
+  padding: 0 30px;
+}
+.grid-item:nth-child(3n+1){
+  clear: both;
+}
+
+.taman {
+  margin-bottom: 40px;
+}
+
+.taman figure{margin: 0}
+.taman figure img{
+    padding: 0;
+    margin-left: 0px;
+}
+
+.map form{
+  max-width: 550px;
+  margin: 70px auto 0;
+  position: relative;
+}
+.map form button{
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  font-size: 20px;
+  color: #e3a6a9;
+  border: none;
+  background: none;
+}
+.footer{
+  text-align: center;
+}

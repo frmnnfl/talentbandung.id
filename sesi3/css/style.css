@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body{
-  background-image:url("./images/background.png");
+  background-image:url("../images/background.png");
   background-repeat: no-repeat;
   background-size: 100%; /*cover/contain*/
   background-color: #f8f9fa;
