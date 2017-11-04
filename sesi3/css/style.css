@@ -178,8 +178,6 @@ body{
   left:0;
 }
 
-/*
-
 .map:after{
   bottom:0;
   background-image: linear-gradient (white, rgba(255,255,255,0) )
