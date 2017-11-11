@@ -243,7 +243,7 @@ if (nilai >=9){
 
 function greeting(event){
   var nama = event.target.textContent;
-  return alert('halo' + nama);
+  return alert('halo ' + nama);
 }
 
 var grid = document.getElementsByClassName('grid');
