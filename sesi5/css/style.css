@@ -1,0 +1,35 @@
+.container{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.jelajah{
+  font-family:'Caveat', cursive;
+  display: block;
+}
+
+.taman-detail{
+  text-decoration-color: black;
+  display: block;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero input[type="text"]{
+  padding: 10px;
+  height: 18px;
+  width: 300px;
+}
+.button_1{
+  height: 40px;
+  background: ;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  margin: 0;
+}
