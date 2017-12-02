@@ -45,16 +45,17 @@ p{
 }
 
 #showcase .showcase-left img{
-  margin-top: 20px;
+  margin-top: 30px;
   margin-right: 10px;
 }
 #showcase .showcase-right{
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 /*TIMELINE*/
 #timeline{
   text-align: center;
+  margin-top: 40px;
 }
 .timeline {
     list-style: none;
